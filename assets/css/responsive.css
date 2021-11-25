@@ -1,0 +1,340 @@
+/* ----- responsive -------- */
+
+@media (max-width: 321px){
+    .copy-right div:first-child {
+    font-size: 0.6rem !important;
+    }
+    .footer-bottom p.ps-4,
+    .footer-bottom span.ps-4{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 415px) {
+    
+    .vu_w-100{
+        width: 100% !important;
+    }
+    .vu_mt-1{
+        margin-top: 1rem !important;
+    }
+    .vu_flex-wrap{
+        flex-wrap: wrap;
+    }
+    .vu_w-50{
+        width: 50%;
+    }
+    div.vu_d-ssm-none{
+        display: none !important;
+    }
+    .footer-top-intro  div {
+        display: none;
+    }
+    .footer-bottom p.ps-4,
+    .footer-bottom span.ps-4{
+        padding-left: 0 !important;
+    }
+    .footer-bottom span.ps-4{
+        font-size: 0.8rem;
+    }
+    .copy-right div:first-child {
+        font-size: 0.7rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width:602px) {
+    html {
+        font-size: 12px;
+    }
+    .post-item.bg-light {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-top: 0.7rem;
+    }
+    .list-post-new li:last-child{
+        display: none;
+    }
+    .vu_d-smd-block{
+        display: block !important;
+    }
+    p.h5{
+        font-size: 1rem !important;
+    }
+    .owl-prev, .owl-next{
+        bottom: 2rem !important;
+    }
+    div.footer-top-intro div{
+        width: 32rem !important;
+        margin: 1rem auto 0 auto !important;
+    }
+    iframe.iframe.iframe-smd {
+        height: 245px !important;
+    }
+}
+
+@media (max-width:769px) {
+    html {
+        font-size: 13px;
+    }
+    .menu-bottom ul li {
+        font-size: 0.8rem !important;
+    }
+    .menu-bottom ul li:last-child{
+        display: none;
+    }
+    .name-uni span {
+        line-height: 1rem;
+        font-size: 0.7rem;
+    }
+    .vu_d-md-none{
+        display: none;
+    }
+    #logo img {
+        width: 60px !important;
+    }
+    .menu-bottom ul li:last-child {
+        display: inline-block;
+    }
+    .vu_justify-content-end{
+        justify-content: end;
+    }
+    .vu_w-60{
+        width: 60%;
+        margin-right: 1rem;
+    }
+    .list-training li{
+       display: inline-block;
+       padding: 0 5px;
+    }
+    .list-training{
+        display: flex;
+    }
+    iframe.iframe {
+        height: 168px !important;
+    }
+    .vu_d-md-none{
+        display: none;
+    }
+    .social{
+        right: 15px;
+    }
+    .post-title {
+        line-height: 1.1;
+        font-size: 1.1rem;
+        text-align: justify;
+        margin-bottom: 7px;
+    }
+    div.new-main-time{
+        height: 33px !important;
+    }
+    p.h5.mt-md-2 {
+        margin-top: 0.8rem !important;
+    }
+    .footer-top-intro div {
+        margin: 3rem auto 0 auto !important;
+    }
+}
+
+@media (max-width:993px) {
+    html {
+        font-size: 14px;
+    }
+    #parallelogram{
+        width: 40%;
+    }
+    input[id='search']{
+        width: 80%;
+    }
+    .name-uni span {
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+    .name-uni {
+        padding-top: 4px;
+        height: 36px;
+    }
+    #logo img {
+        width: 48px;
+        margin-top: -6px;
+    }
+    .menu-bottom ul li{
+        font-size: 0.9rem;
+    }
+    .new-main-time {
+        height: 112px !important;
+    }
+    .list-notice li:last-child{
+        display: none;
+    }
+    .list-training li{
+        margin-bottom: 0.2rem !important;
+    }
+    p.h5{
+        font-size: 1.07rem;
+        margin-top: 2rem !important;
+    }
+    iframe{
+        height: 220px !important;
+    }
+    .footer-top-intro div {
+        padding: 1rem 0rem;
+        width: 44rem;
+        margin: 5rem auto 0 auto;
+    }
+    .vu_d-md-flex{
+        display: flex;
+    }
+    .vu_justify-content-md-between{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:1201px) {
+    html {
+        font-size: 15px;
+    } 
+}
+
+@media (max-width:1401px) {
+    html {
+        font-size: 15px !important;
+    }
+    .new-main-time{
+        height: 85px;
+    }
+    .list-training li{
+        margin-bottom: 2px !important;
+    }
+    iframe{
+        height: 290px;
+    }
+    .footer-top-intro div {
+        margin: 7rem auto 0 auto;
+    }
+    .social{
+        right: 18px ;
+    }
+}
+
+@media (min-width:1800px) {
+    html {
+        font-size: 17px;
+    }
+    
+}
+
+
+
+@media all and (min-width: 20em) {
+    
+    .showCurrentDate {
+        font-size: 12px;
+    }
+   
+    .mobile-remove-space {
+        display: none;
+    }
+    .mobile-view-logo {
+        display: block;
+        margin-top: -10px;
+    }
+    
+    .menu-top-container {
+        width: 100%;
+        float: left;
+    }
+    .nav-item {
+        border-right: 0;
+    }
+    .vu-header-bottom {
+        display: none;
+    }
+    .vu_dp-md-none {
+        display: none;
+    }
+    #vu-header-top {
+        height: 56px;
+        margin-bottom: 1px;
+    }
+}
+
+@media all and (min-width: 40em) {
+    
+    .showCurrentDate {
+        font-size: 15px;
+    }
+    
+    .mobile-remove-space {
+        display: block;
+    }
+    
+    .menu-top-container {
+        width: 70.5%;
+        margin-top: -10px;
+        float: left;
+    }
+    .nav-item:not(li:first-child,
+    li:last-child) {
+        border-right: 1px solid white;
+    }
+    .vu-header-bottom {
+        display: block;
+    }
+    .vu_dp-md-none {
+        display: block;
+    }
+    .mobile-view-logo {
+        display: none;
+    }
+    #vu-header-top {
+        height: 45px;
+    }
+}
+
+
+
+/*  VU bootstrap added   */
+
+.bg-primary {
+    background-color: var(--vu_color-blue) !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 12px;
+    line-height: 1px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+}
+
+.navbar-nav {
+    padding: 0 !important;
+}
+
+.icon-bank-top {
+    color: white;
+    font-size: 10px;
+    padding-top: 4px;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: none;
+    }
+    .navbar .nav-item:hover .nav-link,
+    .navbar .nav-item:hover .dropdown-menu {
+        display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+        margin-top: 0;
+    }
+}
