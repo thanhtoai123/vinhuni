@@ -5,6 +5,10 @@
     margin: 0 auto;
 }
 
+.row {
+    --bs-gutter-x: 1.9rem;
+}
+
 @media (min-width: 1900px){
     .vu_container {
         max-width: 1600px;
