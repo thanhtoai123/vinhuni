@@ -1,5 +1,5 @@
 body{
-    font-family: "Open Sans", arial, sans-serif;
+    font-family: 'Quicksand', arial, sans-serif;
 }
 
 html {
@@ -411,8 +411,8 @@ input[id='search'] {
 
 .post-text-detail {
     text-align: justify;
-    font-size: 13px;
-    line-height: 1.4;
+    font-size: 0.9375rem;
+    line-height: 1.5;
     margin-bottom: 5px;
     color: black;
 }
@@ -475,8 +475,7 @@ input[id='search'] {
 /* THÔNG BÁO */
 
 .notice-title{
-    font-size: 0.9rem;
-    color: var(--vu_color-bluelink);
+    font-size: 0.95rem;
     margin-bottom: 0.4rem;
 }
 
@@ -488,7 +487,7 @@ input[id='search'] {
 
 .list-notice li{
     margin-left: 24px;
-    margin-bottom: 0.58rem;
+    margin-bottom: 1.4rem;
 }
 
 .list-notice li::before{
@@ -593,7 +592,7 @@ h4.h4{
 }
 
 .copy-right{
-    background-color: var(--vu_color-darkgrey);
+    background-color: #003979;
 }
 
 .footer-bottom p, span{

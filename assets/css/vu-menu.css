@@ -150,6 +150,7 @@
     display: none;
     cursor: pointer;
     width: 2rem;
+    top: 0px;
     height: 1rem;
     border: none;
     outline: none;
@@ -168,11 +169,11 @@
     display: block;
     position: absolute;
     width: 100%;
-    height: 2px;
+    height: 3px;
     left: 0;
     border: none;
     outline: none;
-    margin-top: -7px;
+    margin-top: -1px;
     margin-left: 5px;
     opacity: 1;
     border-radius: 0.25rem;
@@ -411,17 +412,35 @@
     z-index: 100;
     width: 100%;
     background-color: #fff;
-    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    top: 7px;
+    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 9%), 0 6px 20px 0 rgb(0 0 0 / 1%);
+    top: -38px;
     transform: translateY(-8px);
     transition: all 0.5s ease;
 }
 .pixed-menu-mobie{
     position: fixed !important;
     width: 100%;
-    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 9%), 0 6px 20px 0 rgb(0 0 0 / 1%);
     top: 2px;
     transform: translateY(-3px);
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
     z-index: 100;
+}
+
+#vu_header{
+    position: absolute;
+    width: 100%;
+}
+#vu_content{
+    margin-top: 131px;
+}
+
+#vu-header-top{
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+}
+
+.vu-header-bottom{
+    margin-top: 45px;
 }

@@ -10,7 +10,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
 
@@ -29,244 +29,246 @@
 </head>
 
 <body>
-    <div class="vu-header overflow-hidden position-relative">
+    <div class="vu_main overflow-hidden position-relative">
         <!--Header-top-->
-        <div id="vu-header-top" class="vu_bg-blue position-relative">
-            <div class="vu_container py-3">
-                <div class="menu-top-container">
-                    <!---->
-                    <header class="header">
-                        <section class="wrapper">
-                            <div class="mobile-view-logo">
-                                <a href="">
-                                    <img src="./assets/images/mobile-logo.png" alt="Vinh University">
-                                </a>
-                            </div>
-                            <button type="button" class="opened-menu">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </button>
-                            <div class="overlay"></div>
-                            <nav class="navbar">
-                                <span class="mobile-text-top">VINH-UNI</span>
-                                <button type="button" class="closed-menu">
-                                    <img src="./assets/images/closed.png" class="closed-icon" alt="Đóng menu">
+        <div id="vu_header">
+            <div id="vu-header-top" class="vu_bg-blue">
+                <div class="vu_container py-3">
+                    <div class="menu-top-container">
+                        <!---->
+                        <header class="header">
+                            <section class="wrapper">
+                                <div class="mobile-view-logo">
+                                    <a href="">
+                                        <img src="./assets/images/mobile-logo.png" alt="Vinh University">
+                                    </a>
+                                </div>
+                                <button type="button" class="opened-menu">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
                                 </button>
-                                <hr>
-                                <ul class="menu">
-                                    <li class="icon-menu-top"><span class="me-2 icon-bank"></span></li>
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="#" data-toggle="sub-menu">Trường<i class="expand"></i></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="#">Trường Sư phạm</a></li>
-                                            <li class="menu-item"><a href="#">Trường KHXH & NV</a></li>
-                                            <li class="menu-item"><a href="#">Trường Kinh tế </a></li>
-                                            <li class="menu-item"><a href="#">Trường Thực hành SP </a></li>
-                                            <li class="menu-item"><a href="#">Trường THPT Chuyên </a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-bar">|</li>
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="#" data-toggle="sub-menu">Khoa-Viện<i class="expand"></i></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="#">Khoa Giáo dục Thể chất</a></li>
-                                            <li class="menu-item"><a href="#">Khoa Sư phạm Ngoại ngữ </a></li>
-                                            <li class="menu-item"><a href="#">Khoa Xây dựng </a></li>
-                                            <li class="menu-item"><a href="#">Viện Kỹ thuật và Công nghệ</a></li>
-                                            <li class="menu-item"><a href="#">Viện CN Hoá sinh-Môi trường</a></li>
-                                            <li class="menu-item"><a href="#">Viện Nông nghiệp và Tài nguyên</a>
-                                            </li>
-                                            <li class="menu-item"><a href="#">Viện NC và ĐT Trực tuyến</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-bar">|</li>
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="#" data-toggle="sub-menu">Phòng ban<i class="expand"></i></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="#">Văn phòng Đảng-Đoàn thể</a></li>
-                                            <li class="menu-item"><a href="#">Ban quản lý Cơ sở 2 </a></li>
-                                            <li class="menu-item"><a href="#">Phòng CTCT-HSSV </a></li>
-                                            <li class="menu-item"><a href="#">Phòng Đào tạo </a></li>
-                                            <li class="menu-item"><a href="#">Phòng Đào tạo Sau đại học</a></li>
-                                            <li class="menu-item"><a href="#">Phòng Hành chính Tổng hợp</a></li>
-                                            <li class="menu-item"><a href="#">Phòng Kế hoạch Tài chính</a></li>
-                                            <li class="menu-item"><a href="#">Phòng Khoa học và HTQT</a></li>
-                                            <li class="menu-item"><a href="#">Phòng Quản trị và Đầu tư</a></li>
-                                            <li class="menu-item"><a href="#">Phòng Thanh tra-Pháp chế</a></li>
-                                            <li class="menu-item"><a href="#">Phòng Tổ chức Cán bộ</a></li>
-                                            <li class="menu-item"><a href="#">Nhà xuất bản Đại học Vinh</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-bar">|</li>
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="#" data-toggle="sub-menu">Trung tâm-Trạm <i class="expand"></i></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="#">Trung tâm Công nghệ thông tin</a></li>
-                                            <li class="menu-item"><a href="#">Trung tâm Đảm bảo chất lượng</a></li>
-                                            <li class="menu-item"><a href="#">Trung tâm Dịch vụ, HTSV&QHDN</a></li>
-                                            <li class="menu-item"><a href="#">Trung tâm Giáo dục thường xuyên</a>
-                                            </li>
-                                            <li class="menu-item"><a href="#">Trung tâm GDQP&AN Trường ĐHV</a>
-                                            </li>
-                                            <li class="menu-item"><a href="#">Trung tâm Nội trú </a>
-                                            </li>
-                                            <li class="menu-item"><a href="#">Trung tâm TT-TV Nguyễn Thúc Hào</a>
-                                            </li>
-                                            <li class="menu-item"><a href="#">Trung tâm Thực hành-Thí nghiệm</a>
-                                            </li>
-                                            <li class="menu-item"><a href="#">Trung tâm Nghiên cứu - KNST</a>
-                                            </li>
-                                            <li class="menu-item"><a href="#">Trung tâm Kiểm định CLGD</a>
-                                            </li>
-                                            <li class="menu-item"><a href="#">Trung tâm Bồi dưỡng NVSP</a>
-                                            </li>
-                                            <li class="menu-item"><a href="#">Trạm Y tế</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-bar">|</li>
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="#" data-toggle="sub-menu">Đảng-Đoàn thể <i class="expand"></i></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="#">Đảng uỷ</a></li>
-                                            <li class="menu-item"><a href="#">Hội đồng trường</a></li>
-                                            <li class="menu-item"><a href="#">Ban Giám hiệu</a></li>
-                                            <li class="menu-item"><a href="#">Các tổ chức đoàn thể</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </nav>
-
-                            <nav class="navbar">
-                                <ul class="menu">
-                                    <li class="icon-menu-top"><span class="mr-2 icon-user-plus"></span></li>
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="#" data-toggle="sub-menu">Cán bộ<i class="expand"></i></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="#">Cổng cán bộ</a></li>
-                                            <li class="menu-item"><a href="#">USmart</a></li>
-                                            <li class="menu-item"><a href="#">E-Learning</a></li>
-                                            <li class="menu-item"><a href="#">iOffice</a></li>
-                                            <li class="menu-item"><a href="#">Thư điện tử</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-bar">|</li>
-                                    <li class="menu-item menu-item-has-children">
-                                        <a href="#" data-toggle="sub-menu">Sinh viên<i class="expand"></i></a>
-                                        <ul class="sub-menu">
-                                            <li class="menu-item"><a href="#">Cổng sinh viên</a></li>
-                                            <li class="menu-item"><a href="#">Đăng ký học CMC</a></li>
-                                            <li class="menu-item"><a href="#">E-Learning</a></li>
-                                            <li class="menu-item"><a href="#">Đời sống sinh viên</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-bar">|</li>
-                                    <li class="menu-item"><a href="#">Cựu sinh viên</a></li>
-                                    <li class="menu-item-bar">|</li>
-                                    <li class="menu-item"><a href="#">Lịch công tác</a></li>
-                                    <li class="menu-item-bar">|</li>
-                                    <li class="menu-item"><a href="#">English</a></li>
-                                </ul>
-                            </nav>
-                        </section>
-                    </header>
-                </div>
-                <!--SEARCH-->
-                <div class="search vu_dp-md-none" id="parallelogram">
-                    <form action="" method="POST" class="d-flex align-items-center">
-                        <div class="search-icon"><span class="mr-2 icon-search"></span></div>
-                        <input type="search" name="" id="search" placeholder="Thông tin tìm kiếm...">
-                    </form>
+                                <div class="overlay"></div>
+                                <nav class="navbar">
+                                    <span class="mobile-text-top">VINH-UNI</span>
+                                    <button type="button" class="closed-menu">
+                                        <img src="./assets/images/closed.png" class="closed-icon" alt="Đóng menu">
+                                    </button>
+                                    <hr>
+                                    <ul class="menu">
+                                        <li class="icon-menu-top"><span class="me-2 icon-bank"></span></li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" data-toggle="sub-menu">Trường<i class="expand"></i></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="#">Trường Sư phạm</a></li>
+                                                <li class="menu-item"><a href="#">Trường KHXH & NV</a></li>
+                                                <li class="menu-item"><a href="#">Trường Kinh tế </a></li>
+                                                <li class="menu-item"><a href="#">Trường Thực hành SP </a></li>
+                                                <li class="menu-item"><a href="#">Trường THPT Chuyên </a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-bar">|</li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" data-toggle="sub-menu">Khoa-Viện<i class="expand"></i></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="#">Khoa Giáo dục Thể chất</a></li>
+                                                <li class="menu-item"><a href="#">Khoa Sư phạm Ngoại ngữ </a></li>
+                                                <li class="menu-item"><a href="#">Khoa Xây dựng </a></li>
+                                                <li class="menu-item"><a href="#">Viện Kỹ thuật và Công nghệ</a></li>
+                                                <li class="menu-item"><a href="#">Viện CN Hoá sinh-Môi trường</a></li>
+                                                <li class="menu-item"><a href="#">Viện Nông nghiệp và Tài nguyên</a>
+                                                </li>
+                                                <li class="menu-item"><a href="#">Viện NC và ĐT Trực tuyến</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-bar">|</li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" data-toggle="sub-menu">Phòng ban<i class="expand"></i></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="#">Văn phòng Đảng-Đoàn thể</a></li>
+                                                <li class="menu-item"><a href="#">Ban quản lý Cơ sở 2 </a></li>
+                                                <li class="menu-item"><a href="#">Phòng CTCT-HSSV </a></li>
+                                                <li class="menu-item"><a href="#">Phòng Đào tạo </a></li>
+                                                <li class="menu-item"><a href="#">Phòng Đào tạo Sau đại học</a></li>
+                                                <li class="menu-item"><a href="#">Phòng Hành chính Tổng hợp</a></li>
+                                                <li class="menu-item"><a href="#">Phòng Kế hoạch Tài chính</a></li>
+                                                <li class="menu-item"><a href="#">Phòng Khoa học và HTQT</a></li>
+                                                <li class="menu-item"><a href="#">Phòng Quản trị và Đầu tư</a></li>
+                                                <li class="menu-item"><a href="#">Phòng Thanh tra-Pháp chế</a></li>
+                                                <li class="menu-item"><a href="#">Phòng Tổ chức Cán bộ</a></li>
+                                                <li class="menu-item"><a href="#">Nhà xuất bản Đại học Vinh</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-bar">|</li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" data-toggle="sub-menu">Trung tâm-Trạm <i class="expand"></i></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="#">Trung tâm Công nghệ thông tin</a></li>
+                                                <li class="menu-item"><a href="#">Trung tâm Đảm bảo chất lượng</a></li>
+                                                <li class="menu-item"><a href="#">Trung tâm Dịch vụ, HTSV&QHDN</a></li>
+                                                <li class="menu-item"><a href="#">Trung tâm Giáo dục thường xuyên</a>
+                                                </li>
+                                                <li class="menu-item"><a href="#">Trung tâm GDQP&AN Trường ĐHV</a>
+                                                </li>
+                                                <li class="menu-item"><a href="#">Trung tâm Nội trú </a>
+                                                </li>
+                                                <li class="menu-item"><a href="#">Trung tâm TT-TV Nguyễn Thúc Hào</a>
+                                                </li>
+                                                <li class="menu-item"><a href="#">Trung tâm Thực hành-Thí nghiệm</a>
+                                                </li>
+                                                <li class="menu-item"><a href="#">Trung tâm Nghiên cứu - KNST</a>
+                                                </li>
+                                                <li class="menu-item"><a href="#">Trung tâm Kiểm định CLGD</a>
+                                                </li>
+                                                <li class="menu-item"><a href="#">Trung tâm Bồi dưỡng NVSP</a>
+                                                </li>
+                                                <li class="menu-item"><a href="#">Trạm Y tế</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-bar">|</li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" data-toggle="sub-menu">Đảng-Đoàn thể <i class="expand"></i></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="#">Đảng uỷ</a></li>
+                                                <li class="menu-item"><a href="#">Hội đồng trường</a></li>
+                                                <li class="menu-item"><a href="#">Ban Giám hiệu</a></li>
+                                                <li class="menu-item"><a href="#">Các tổ chức đoàn thể</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+    
+                                <nav class="navbar">
+                                    <ul class="menu">
+                                        <li class="icon-menu-top"><span class="mr-2 icon-user-plus"></span></li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" data-toggle="sub-menu">Cán bộ<i class="expand"></i></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="#">Cổng cán bộ</a></li>
+                                                <li class="menu-item"><a href="#">USmart</a></li>
+                                                <li class="menu-item"><a href="#">E-Learning</a></li>
+                                                <li class="menu-item"><a href="#">iOffice</a></li>
+                                                <li class="menu-item"><a href="#">Thư điện tử</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-bar">|</li>
+                                        <li class="menu-item menu-item-has-children">
+                                            <a href="#" data-toggle="sub-menu">Sinh viên<i class="expand"></i></a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="#">Cổng sinh viên</a></li>
+                                                <li class="menu-item"><a href="#">Đăng ký học CMC</a></li>
+                                                <li class="menu-item"><a href="#">E-Learning</a></li>
+                                                <li class="menu-item"><a href="#">Đời sống sinh viên</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-bar">|</li>
+                                        <li class="menu-item"><a href="#">Cựu sinh viên</a></li>
+                                        <li class="menu-item-bar">|</li>
+                                        <li class="menu-item"><a href="#">Lịch công tác</a></li>
+                                        <li class="menu-item-bar">|</li>
+                                        <li class="menu-item"><a href="#">English</a></li>
+                                    </ul>
+                                </nav>
+                            </section>
+                        </header>
+                    </div>
+                    <!--SEARCH-->
+                    <div class="search vu_dp-md-none" id="parallelogram">
+                        <form action="" method="POST" class="d-flex align-items-center">
+                            <div class="search-icon"><span class="mr-2 icon-search"></span></div>
+                            <input type="search" name="" id="search" placeholder="Thông tin tìm kiếm...">
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-        <!--Header-bottom-->
-        <div class="vu-header-bottom">
-            <div class="vu_container py-3">
-                <div class="row">
-                    <div class="col-6 col-sm-1 col-lg-3 col-xl-4 d-flex align-items-center">
-                        <div id="logo">
-                            <a href="" class="d-block">
-                                <img src="./assets/images/vu-logo.png" alt="Vinh University">
-                            </a>
+            <!--Header-bottom-->
+            <div class="vu-header-bottom">
+                <div class="vu_container py-3">
+                    <div class="row">
+                        <div class="col-6 col-sm-1 col-lg-3 col-xl-4 d-flex align-items-center">
+                            <div id="logo">
+                                <a href="" class="d-block">
+                                    <img src="./assets/images/vu-logo.png" alt="Vinh University">
+                                </a>
+                            </div>
+                            <div class="name-uni ms-2 px-2 vu_d-md-none">
+                                <span>TRƯỜNG ĐẠI HỌC VINH <br> VINH UNIVERSITY</span>
+                            </div>
                         </div>
-                        <div class="name-uni ms-2 px-2 vu_d-md-none">
-                            <span>TRƯỜNG ĐẠI HỌC VINH <br> VINH UNIVERSITY</span>
-                        </div>
-                    </div>
-                    <div
-                        class="col-6 col-sm-11 col-lg-9 col-xl-8 d-flex align-items-center justify-content-lg-end vu_justify-content-end">
-                        <div class="menu-bottom">
-                            <ul>
-                                <li><a href="#">Giới thiệu</a>
-                                    <ul class="sub-menu-bottom">
-                                        <li><a href="#">Tổng quan</a></li>
-                                        <li><a href="#">Cơ cấu tổ chức</a></li>
-                                        <li><a href="#">Khuôn viên trường</a></li>
-                                        <li><a href="#">Tuyền thông</a></li>
-                                        <li><a href="#">Chung tay vì công đồng</a></li>
-                                        <li><a href="#">Nhà truyền thống</a></li>
-                                        <li><a href="#">Ba công khai</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Đào tạo</a>
-                                    <ul class="sub-menu-bottom">
-                                        <li><a href="#">Đại học chính quy</a></li>
-                                        <li><a href="#">Sau đại học</a></li>
-                                        <li><a href="#">Vừa làm vừa học</a></li>
-                                        <li><a href="#">Đào tạo từ xa</a></li>
-                                        <li><a href="#">Trung học phổ thông</a></li>
-                                        <li><a href="#">THCS, Tiểu học, mầm non</a></li>
-                                        <li><a href="#">Đào tạo ngắn hạn</a></li>
-                                        <li><a href="#">Chương trình ĐT Quốc tế</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Khoa học-Công nghệ</a>
-                                    <ul class="sub-menu-bottom">
-                                        <li><a href="#">Tin KHCN</a></li>
-                                        <li><a href="#">Cơ sở dữ liệu KHCN</a></li>
-                                        <li><a href="#">Tạp chí khoa học</a></li>
-                                        <li><a href="#">Hỗ trợ nghiên cứu</a></li>
-                                        <li><a href="#">Chương trình NC chính</a></li>
-                                        <li><a href="#">Hợp tác NC quốc tế</a></li>
-                                        <li><a href="#">Văn bản, biểu mẫu</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Hợp tác quốc tế</a>
-                                    <ul class="sub-menu-bottom">
-                                        <li><a href="#">Chương trình học bổng</a></li>
-                                        <li><a href="#">Hội thảo quốc tế</a></li>
-                                        <li><a href="#">Liên kết đào tạo</a></li>
-                                        <li><a href="#">NC chuyển giao công nghệ</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Cuộc sống SV</a>
-                                    <ul class="sub-menu-bottom">
-                                        <li><a href="#">Đời sống</a></li>
-                                        <li><a href="#">Đơn vị liên quan</a></li>
-                                        <li><a href="#">Các dịch vụ</a></li>
-                                        <li><a href="#">Thư viện</a></li>
-                                        <li><a href="#">Ký túc xá</a></li>
-                                        <li><a href="#">Các hoạt động SV</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Tuyển sinh</a>
-                                    <ul class="sub-menu-bottom">
-                                        <li><a href="#">Đại học chính quy</a></li>
-                                        <li><a href="#">Đạ học hệ VLVH, ĐTTX</a></li>
-                                        <li><a href="#">Cao học</a></li>
-                                        <li><a href="#">Tiến sĩ</a></li>
-                                        <li><a href="#">THPT Chuyên</a></li>
-                                        <li><a href="#">Trường THSP</a></li>
-                                        <li><a href="#">Đào tạo ngắn hạn</a></li>
-                                        <li><a href="#">Chương trình học bổng</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="#">Hỏi đáp</a></li>
-                                <li><a href="#">Sơ đồ trang</a></li>
-                            </ul>
+                        <div
+                            class="col-6 col-sm-11 col-lg-9 col-xl-8 d-flex align-items-center justify-content-lg-end vu_justify-content-end">
+                            <div class="menu-bottom">
+                                <ul>
+                                    <li><a href="#">Giới thiệu</a>
+                                        <ul class="sub-menu-bottom">
+                                            <li><a href="#">Tổng quan</a></li>
+                                            <li><a href="#">Cơ cấu tổ chức</a></li>
+                                            <li><a href="#">Khuôn viên trường</a></li>
+                                            <li><a href="#">Tuyền thông</a></li>
+                                            <li><a href="#">Chung tay vì công đồng</a></li>
+                                            <li><a href="#">Nhà truyền thống</a></li>
+                                            <li><a href="#">Ba công khai</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Đào tạo</a>
+                                        <ul class="sub-menu-bottom">
+                                            <li><a href="#">Đại học chính quy</a></li>
+                                            <li><a href="#">Sau đại học</a></li>
+                                            <li><a href="#">Vừa làm vừa học</a></li>
+                                            <li><a href="#">Đào tạo từ xa</a></li>
+                                            <li><a href="#">Trung học phổ thông</a></li>
+                                            <li><a href="#">THCS, Tiểu học, mầm non</a></li>
+                                            <li><a href="#">Đào tạo ngắn hạn</a></li>
+                                            <li><a href="#">Chương trình ĐT Quốc tế</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Khoa học-Công nghệ</a>
+                                        <ul class="sub-menu-bottom">
+                                            <li><a href="#">Tin KHCN</a></li>
+                                            <li><a href="#">Cơ sở dữ liệu KHCN</a></li>
+                                            <li><a href="#">Tạp chí khoa học</a></li>
+                                            <li><a href="#">Hỗ trợ nghiên cứu</a></li>
+                                            <li><a href="#">Chương trình NC chính</a></li>
+                                            <li><a href="#">Hợp tác NC quốc tế</a></li>
+                                            <li><a href="#">Văn bản, biểu mẫu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Hợp tác quốc tế</a>
+                                        <ul class="sub-menu-bottom">
+                                            <li><a href="#">Chương trình học bổng</a></li>
+                                            <li><a href="#">Hội thảo quốc tế</a></li>
+                                            <li><a href="#">Liên kết đào tạo</a></li>
+                                            <li><a href="#">NC chuyển giao công nghệ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Cuộc sống SV</a>
+                                        <ul class="sub-menu-bottom">
+                                            <li><a href="#">Đời sống</a></li>
+                                            <li><a href="#">Đơn vị liên quan</a></li>
+                                            <li><a href="#">Các dịch vụ</a></li>
+                                            <li><a href="#">Thư viện</a></li>
+                                            <li><a href="#">Ký túc xá</a></li>
+                                            <li><a href="#">Các hoạt động SV</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Tuyển sinh</a>
+                                        <ul class="sub-menu-bottom">
+                                            <li><a href="#">Đại học chính quy</a></li>
+                                            <li><a href="#">Đạ học hệ VLVH, ĐTTX</a></li>
+                                            <li><a href="#">Cao học</a></li>
+                                            <li><a href="#">Tiến sĩ</a></li>
+                                            <li><a href="#">THPT Chuyên</a></li>
+                                            <li><a href="#">Trường THSP</a></li>
+                                            <li><a href="#">Đào tạo ngắn hạn</a></li>
+                                            <li><a href="#">Chương trình học bổng</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Hỏi đáp</a></li>
+                                    <li><a href="#">Sơ đồ trang</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -696,11 +698,11 @@
                         <div class="col-sm-12 col-md-5 col-xl-3 pt-md-4 pt-xl-5 pt-sm-2">
                             <h5 class="footer-bottom-title">CÁC CƠ SỞ TRỰC THUỘC</h5>
                             <div class="d-flex flex-column">
-                                <span class="text-white ps-4 py-1">Cơ sở 1: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
-                                <span class="text-white ps-4 py-1">Cơ sở 2: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
-                                <span class="text-white ps-4 py-1">Cơ sở 3: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
-                                <span class="text-white ps-4 py-1">Cơ sở 4: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
-                                <span class="text-white ps-4 py-1">Cơ sở 5: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
+                                <span class="text-white ps-4 py-1"><i class="icon-room"></i> Cơ sở 1: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
+                                <span class="text-white ps-4 py-1"><i class="icon-room"></i> Cơ sở 2: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
+                                <span class="text-white ps-4 py-1"><i class="icon-room"></i> Cơ sở 3: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
+                                <span class="text-white ps-4 py-1"><i class="icon-room"></i> Cơ sở 4: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
+                                <span class="text-white ps-4 py-1"><i class="icon-room"></i> Cơ sở 5: 182 Lê Duẩn, TP. Vinh, Nghệ An</span>
                             </div>
                         </div>
 

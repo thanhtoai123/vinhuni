@@ -7,21 +7,18 @@ $(document).ready(function() {
             $('#back-top').fadeOut()
         }
 
-        if($(this).scrollTop() > 160 & $(this).width() >= 1200){
+        if($(this).scrollTop() > 100 & $(this).width() >= 1200){
             $('.vu-header-bottom').addClass('pixed-menu')
-            $('#vu_content').css('margin-top', '85px')
         }else{
             $('.vu-header-bottom').removeClass('pixed-menu')
-            $('#vu_content').css('margin-top', '0px')
         }
 
-        if($(this).scrollTop() > 70 & $(this).width() <1200){
+        if($(this).scrollTop() > 80 & $(this).width() <1200){
             $('#vu-header-top').addClass('pixed-menu-mobie')
-            $('#vu_content').css('margin-top', '56px')
         }else{
             $('#vu-header-top').removeClass('pixed-menu-mobie')
-            $('#vu_content').css('margin-top', '0px')
         }
+
     })
 
     $('#back-top').click(function() {
